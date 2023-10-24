@@ -101,7 +101,7 @@ resource "azurerm_virtual_machine" "main" {
     managed_disk_type = "Standard_LRS"
   }
   os_profile {
-    computer_name  = "Linux (ubuntu 22.04)"
+    computer_name  = "Linux"
     admin_username = "lohita"
     admin_password = "Littlehearts79"
   }
